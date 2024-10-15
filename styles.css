@@ -140,3 +140,9 @@ th {
 h6 {
     font-size: 0.8em
 }
+
+td img {
+    display: block;
+    height: 35vh;
+    margin: 20px auto;
+}
