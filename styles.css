@@ -17,6 +17,26 @@ header h4 {
     font-weight: 240
 }
 
+.header-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: #0B192C;
+}
+
+.link-div {
+    padding: 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.link-div a {
+    padding: 0 5px 0 5px;
+}
+
+
+
 h1 {
     font-size: calc(1vw + 1vh + 1.5vmin);
     font-weight: 550;
@@ -43,8 +63,80 @@ table {
 }
 
 th {
-    background-color:#103971;
-    font-weight: 200;
+    background-color: #020c19;
     padding: 10px;
-    border-radius: 5px
+    font-weight: 350;
+}
+
+.element {
+    font-weight: 250;
+    padding: 10px;
+    background-color: #051832;
+    font-size: 0.8em
+}
+
+.element-tag {
+    font-weight: 250;
+    padding: 10px;
+    background-color: #051832a6;
+    font-size: 0.8em;
+    text-align: center
+}
+
+.html-table-description {
+    display: block;
+    font-weight: 150;
+    padding: 10px;
+    background-color: #123569d9; 
+    height: 100%;
+    margin: 0
+}
+
+.github {
+    width: 40px;
+    height: 40px;
+}
+
+.css1 {
+    background-color: #09284f;
+    padding-top: 10px;
+    padding: 15px;
+}
+
+.css1 h4, .css1 h6, .css1 p {
+    padding-bottom: 15px;
+}
+
+.css1 h4 {
+    font-weight: 325;
+}
+.css2 {
+    background-color: #07346f9b;
+    padding: 15px;
+}
+
+.css2 h4, .css2 h6, .css2 p {
+    padding-bottom: 15px;
+}
+.css3 {
+    background-color: #09499e69;
+    padding: 15px;
+}
+
+.css3 h4, .css3 h6, .css3 p {
+    padding-bottom: 15px;
+}
+
+.example-code {
+    text-align: center;
+    color: rgb(218, 141, 0);
+}
+
+.css-table-description {
+    font-weight: 150;
+    padding: 10px
+}
+
+h6 {
+    font-size: 0.8em
 }

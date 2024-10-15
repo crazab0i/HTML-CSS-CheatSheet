@@ -13,31 +13,37 @@
 
     <body>
         <header>
-            <h1>HTML + CSS CheetSheet</h1>
+            <div class="header-div">
+                <h1>HTML + CSS CheetSheet</h1>
+                <div class="link-div">
+                    <a href="https://github.com/crazab0i" target="_blank"><img class="github"src="https://img.icons8.com/material-outlined/24/github.png" alt="GitHub"></img></a>
+                    <a href="https://www.linkedin.com/in/matt-asato" target="_blank"><img src="https://img.icons8.com/color/48/linkedin.png" alt="LinkedIn"/></img></a>
+                </div>
+            </div> 
             <h4>Created By Matt Asato</h4>
+            
         </header>
 
         <main>
             <div>
                 <h4 class="table-div-title">HTML Table</h4>
                 <table>
-                    <tr class="table-header-row">
+                    <tr>
                         <th>Element</th>
                         <th>Element Tag</th>
                         <th>Function</th>
                     </tr>
                     <tr>
-                        <td>Hyper Text Markup Language</td>
-                        <td>html</td>
-                        <td>
-                            <p class="html-table-description">Encapsulates the whole html code. It is the first and mosst important
-                            element in a html document.
+                        <td class="element">Hyper Text Markup Language</td>
+                        <td class="element-tag">html</td>
+                        <td><p class="html-table-description">Encapsulates the whole html code. It is the first and most important element in a html document. It is considered
+                            the root element of the html document.
                             </p>
                         </td>
                     </tr>
                     <tr>
-                        <td>Head</td>
-                        <td>head</td>
+                        <td class="element">Head</td>
+                        <td class="element-tag">head</td>
                         <td>
                             <p class="html-table-description">Contains important elements of the html document such as stylesheet references, the title of the
                                 website, and the characterset that the html file uses.
@@ -45,22 +51,22 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Body</td>
-                        <td>body</td>
+                        <td class="element">Body</td>
+                        <td class="element-tag">body</td>
                         <td><p class="html-table-description">The element tag that encapsulates most of the visible content
                             of the page. It contains elements such as img, p, h1, or similar ones that typically are content elements.
                         </p></td>
                     </tr>
                     <tr>
-                        <td>Heading</td>
-                        <td>h1</td>
+                        <td class="element">Heading</td>
+                        <td class="element-tag">h1</td>
                         <td><p class="html-table-description">The header element gives text higher weight and important when viewing
                             a website. It bolds and enlargens text, giving organization to your website content.
                         </p></td>
                     </tr>   
                     <tr>
-                        <td>Paragraph</td>
-                        <td>p</td>
+                        <td class="element">Paragraph</td>
+                        <td class="element-tag">p</td>
                         <td><p class="html-table-description">The p element usually contains the most text. It is most commonly used for long text based content 
                             on your website.
                         </p></td>
@@ -69,25 +75,25 @@
                 
                 <h4 class="table-div-title">CSS Table</h4>
                 <table>
-                    <tr class="table-header-row">
+                    <tr>
                         <th>Property</th>
                         <th>Description</th>
                     </tr>
                     <tr>
-                        <td>Colors</td>
-                        <td>
+                        <td class="element">Colors</td>
+                        <td class="css1">
                             <h4>Different Color Properties</h4>
-                            <h6>color:</h6>
+                            <h6 >color:</h6>
                             <p class="css-table-description">The color: CSS selector sets the color for foreground elements. In text elements it modifies text color.</p>
                             <h6>background-color:</h6>
-                            <p class="css-table-description">The background-color: CSS selector sets the color for background elements. It is most useful for setting teh design
+                            <p class="css-table-description">The background-color: CSS selector sets the color for background elements. It is most useful for setting the design
                                 of the website as it can fill spaces with color.
                             </p>
                         </td>
                     </tr>
                     <tr>
-                        <td>Box Model</td>
-                        <td>
+                        <td class="element">Box Model</td>
+                        <td class="css2">
                             <h4>Components of the Box Model:</h4>
                             <h6>margin:</h6>
                             <p class="css-table-description">The margin is the space around an element. It enables you to space elements from each other. It
@@ -95,7 +101,9 @@
                             </p>
                             <h6>border:</h6>
                             <p class="css-table-description">The border selector enables you to set the border width, border style, and the border color. An
-                                example would be <p>border: 2px solid red</p> This would create a 2px wide and solid red border around an element.
+                                example would be: </p>
+                            <p class="example-code">border: 2px solid red</p>
+                            <p class="css-table-description">This would create a 2px wide and solid red border around an element.</p>
 
                             </p>
                             <h6>padding:</h6>
@@ -111,33 +119,22 @@
                     </tr>
                 
                     <tr>
-                        <td>Display</td>
-                        <td>
+                        <td class="element">Display</td>
+                        <td class="css3">
                             <h4>Different Display Techniques</h4>
-                            <h6>Absolute</h6>
-                            <p class="css-table-description"></p>
-                            <h6>Relative</h6>
-                            <p class="css-table-description"></p>
-                            <h6>Static</h6>
-                            <p class="css-table-description"></p>
+                            <h6>Inline</h6>
+                            <p class="css-table-description">Displays element as an inline element.</p>
+                            <h6>Block</h6>
+                            <p class="css-table-description">Displays element as a block element.</p>
                             <h6>Flex</h6>
-                            <p class="css-table-description"></p>
+                            <p class="css-table-description">Puts elements into a flex container. Has properties such as flex-direction and align-items.</p>
                             <h6>Grid</h6>
-                            <p class="css-table-description"></p>
+                            <p class="css-table-description">Put elements into a grid container. Can set column and row properties for elements within the container.</p>
                         </td>
                     </tr>
                 </table>
             </div>
         </main>
-
-
-        <footer>
-            <div>
-                <a href="www.linkedin.com/in/matt-asato" target="_blank"><img src="https://img.icons8.com/color/48/linkedin.png" alt="GitHub"/></img></a>
-                <a href="https://github.com/crazab0i" target="_blank"><img src="https://img.icons8.com/material-outlined/24/github.png" alt="LinkedIn"></img></a>
-                <a>Portfolio Website</a>
-            </div>
-        </footer>
     </body>
 
 
